@@ -1,0 +1,16 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@network-utils/arp-lookup": "^2.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

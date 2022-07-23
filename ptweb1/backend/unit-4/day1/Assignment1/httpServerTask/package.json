@@ -1,0 +1,16 @@
+{
+  "name": "httpservertask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-react-parser": "^1.4.13",
+    "nodemon": "^2.0.16"
+  }
+}
