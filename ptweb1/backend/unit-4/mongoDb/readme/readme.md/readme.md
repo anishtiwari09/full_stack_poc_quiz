@@ -55,12 +55,13 @@ BSON=> Binary Json
 
 # comparison operator
 - $gte
-- $ge
+- $gt / $ge (check not sure)
 - $lte
-- $le
+- $lt /$le(check not sure)
 - $ne
 - $in [] (included)
 - $nin [] (not included)
+- $eq
 
 # projection
 
@@ -70,3 +71,6 @@ find(query,projection)
 # limit
 # count
 # skip
+
+# extra Stuff
+- find particular field  (db.collection_name1.find({},{product_name:1}).limit(10))
